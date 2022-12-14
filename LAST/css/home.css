@@ -1,0 +1,147 @@
+/*CSS STYLING IN EXTERNAL STYLE SHEET*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*NAV*/
+nav {
+	background-color: green;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+	max-height: 150px;
+	box-shadow: 0px 10px 20px;
+}
+
+nav p {
+	font-size: 50px;
+	color: white;
+	margin: 20px;
+}
+
+nav p span {
+	color: yellow;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex: 1;
+	flex-wrap: wrap;
+	height: auto;
+	margin: 0 20px;
+	font-size: 25px;
+}
+
+nav ul li a:hover {
+	border: 1px solid white;
+
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+	max-height: 100px;
+}
+
+/*BACKGROUND IMAGE AND HEADING*/
+.imm {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../fod_media/vac.jpg);
+	height: fit-content;
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+	color: yellow;
+	display: flex;
+	flex-direction: column;
+	margin: 0 10px;
+
+}
+
+.imm div {
+	margin-bottom: 0;
+	flex: 1;
+	padding-top: 50px;
+	height: 100%;
+
+
+}
+
+.imm h1 {
+	font-size: 100px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0;
+	padding-left: 5%;
+}
+
+.imm p {
+	color: white;
+	font-size: 35px;
+	margin-left: 5%;
+	margin-top: 5px;
+}
+
+.imm p a {
+	color: yellow;
+	text-decoration: none;
+	background-color: green;
+	padding: 5px 10px;
+}
+
+.learn {
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+
+/* PARAGRAPH STYLES */
+.words {
+	color: grey;
+}
+
+.words a {
+	color: orange;
+}
+
+.words iframe {
+	float: right;
+	width: 400px;
+	height: 220px;
+	margin: 0 20px;
+	border: none;
+}
+
+.words p,
+.words h4 {
+	margin: 20px;
+	font-size: 24px;
+}
+
+.words h4 a {
+	text-decoration: none;
+}
+
+/*FOOTER STYLE*/
+footer {
+	background-color: green;
+	font-size: 30px;
+	height: 50px;
+	color: white;
+	margin: 0 50px;
+	margin-bottom: 20px;
+	padding: 5px 0;
+	border: 1px solid blue;
+	text-align: center;
+}
+
+.home {
+	border: 1px solid white;
+}

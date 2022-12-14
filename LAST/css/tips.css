@@ -1,0 +1,66 @@
+/* TIPS STYLE SHEET */
+
+.div-first{
+	margin: 0 20px;
+}
+.div-first h1{
+	color: yellow;
+	font-size: 55px;
+}
+.div-first h1 span{
+	color: green;
+}
+.div-first p{
+	font-size: 30px;
+	margin: 20px 0;
+	color: rgb(73, 66, 66);
+	padding: 0 10px;
+	
+}
+.div-first p video{
+	float: left;
+	width: auto;
+	margin: 10px 20px;
+	margin-right: 40px;
+	height: 170px;
+}
+
+table{
+	width: 100%;
+	background-color: rgb(100, 220, 216);
+
+}
+.table{ 
+	margin: 20px;
+	background-color: rgb(100, 220, 216);
+}
+table, th, td{
+	font-size: 20px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+table tbody tr td{
+	padding: 10px 10px;
+	font-size: 20px;
+}
+td{
+	padding:0 20px;
+	font-size: 16px;
+}
+.hdd{
+	font-size: 25px;
+}
+.table p{
+	padding:5px 10px;
+	font-size: 20px;
+	border: 2px solid black;
+	border-top: none;
+
+}
+.table p span{
+	font-weight: bolder;
+}
+.tips{
+	border: 1px solid white;
+}
